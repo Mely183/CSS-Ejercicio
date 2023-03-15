@@ -1,0 +1,45 @@
+.box{
+    display: inline-block; /*Controla estructura*/
+    width: 100px;        /*Ancho*/
+    height: 100px;       /*Altura*/
+    background: pink;  /*Color texto*/
+    color: white;      /*Color texto*/
+}
+
+#one{
+    Position: Static; /*Static, relative, sticky, absolute y */
+    top: 20px;
+    left: 0px;
+    background: black;
+}
+#two{
+    Position: relative; /*Static, relative, sticky, absolute y */
+    top: 20px;
+    left: 0px;
+    background: black;
+    text-align:center;
+    border-radius: 30px;
+}
+#three{
+    Position: Static; /*Static, relative, sticky, absolute y */
+    top: 20px;
+    left: 0px;
+    background: blue;
+    text-align:end;
+}
+#four{
+    Position: relative; /*Static, relative, sticky, absolute y */
+    top: 20px;
+    left: 0px;
+    background: black;
+    border: aqua 5px solid;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.texto1{
+    width: 600px;
+    height: 400px;
+    /*overflow: visible;*/
+    padding: ;   /*Espacio entre el contenido y su bordo*/
+}
