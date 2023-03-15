@@ -1,5 +1,5 @@
 .box{
-    display: inline-block; /*Controla estructura*/
+    display:inline-table; /*Controla estructura*/
     width: 100px;        /*Ancho*/
     height: 100px;       /*Altura*/
     background: pink;  /*Color texto*/
@@ -37,9 +37,11 @@
     text-align: center;
 }
 
-.texto1{
+.outer{
     width: 600px;
     height: 400px;
-    /*overflow: visible;*/
+    overflow:scroll;
     padding: ;   /*Espacio entre el contenido y su bordo*/
+    border: green 5px solid;
 }
+
